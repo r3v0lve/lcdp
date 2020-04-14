@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English:400i&display=swap');
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    margin: -8px;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 19px;
+    width: 5%;
+    font-family: 'Lato', sans-serif;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #111111;
+    color: blue;
+    text-decoration: underline;
+}
+  
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: red;
+    color: white;
+}
+
+.topnav a:hover.active {
+    background-color: #111111;
+    color: blue;
+    text-decoration: underline;
+}
+
+.content {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+h1  {
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: gray;
+}
+
+#h1m {
+    font-size: 70px;
+    text-decoration: underline;
+    font-family: 'IM Fell English', serif;
+    text-align: center;
+    color: gray;
+}
+
+h2  {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+h2 a {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+h2 a:hover {
+    color: red;
+}
+
+#h2s1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: 'Archivo', sans-serif;;
+    text-align: center;
+    color: gray;
+}
+
+p {
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+p a {
+    color: black;
+}
+
+p a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+img:hover {
+    -webkit-box-shadow: 0px 0px 22px 15px rgba(235,21,21,1);
+    -moz-box-shadow: 0px 0px 22px 15px rgba(235,21,21,1);
+    box-shadow: 0px 0px 22px 15px rgba(235,21,21,1);
+}
+
+iframe {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: block;
+    margin: auto;
+    
+}
+
+body {
+    background-color: transparent;
+    line-height: 3em;
+}
+
+ul {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    list-style-position: inside;
+    text-align: center;
+}
